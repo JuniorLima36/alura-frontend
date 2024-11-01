@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background: url(assets/background.png);
+  background-clip: border-box;
+  background-size: cover;
+}
+
+canvas {
+  display: block;
+}

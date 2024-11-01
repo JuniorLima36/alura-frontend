@@ -1,0 +1,70 @@
+:root {
+  --bg-cinza: #aaa;
+  --bg-vermelha: #e93d50;
+  --bg-vermelha-escura: #af303f;
+  --bg-branca: #fff;
+  --bg-luz: rgb(229, 255, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #a7cfdf 0%, #23538a 100%);
+}
+
+h1 {
+  font-size: 18px;
+  color: var(--bg-branca);
+  margin-bottom: 20px;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+}
+
+.key {
+  cursor: pointer;
+  text-align: center;
+  line-height: 120px;
+  width: 120px;
+  height: 120px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--bg-vermelha);
+  border-radius: 30px;
+  background-color: var(--bg-branca);
+  box-shadow: 3px 3px 0 var(--bg-cinza);
+}
+
+.key.active, .key:active {
+  outline: none;
+  color: var(--bg-branca);
+  border: 4px solid var(--bg-vermelha);
+  background-color: var(--bg-vermelha);
+  box-shadow: 3px 3px 0 var(--bg-vermelha-escura) inset;
+}
+
+.key.focus, .key:focus {
+  outline: none;
+  box-shadow: 1px 1px 10px var(--bg-luz);
+}
+
+.key.active:focus, .key:active:focus {
+  box-shadow: 3px 3px 0 var(--bg-vermelha-escura) inset, 1px 1px 10px var(--bg-luz);
+}
