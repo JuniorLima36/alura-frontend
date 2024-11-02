@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/Alura.svg" type="image/x-icon">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário de cadastro</title>
+</head>
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container-botao">
+      <label for="menu" class="container-rotulo">
+        <span class="cabeçalho-menu-hamburguer container-imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu-titulo">Categorias</li>
+        <li class="lista-menu-item">
+          <a href="#" class="lista-menu-link">Programação</a>
+        </li>
+        <li class="lista-menu-item">
+          <a href="#" class="lista-menu-link">Front-end</a>
+        </li>
+        <li class="lista-menu-item">
+          <a href="#" class="lista-menu-link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu-item">
+          <a href="#" class="lista-menu-link">Business</a>
+        </li>
+        <li class="lista-menu-item">
+          <a href="#" class="lista-menu-link">Design & UX</a>
+        </li>
+      </ul>
+      <img src="assets/Logo.svg" alt="Logo da Alurabooks" class="container-imagem">
+      <h1 class="container-titulo"><b class="container-titulo--negrito">Alura</b>Books</h1>
+    </div>
+    <ul class="opções">
+      <input type="checkbox" id="opções-menu" class="opções-botão">
+      <li class="opções-item"><a href="#" class="opções-link">Categorias</a></li>
+      <li class="opções-item"><a href="#" class="opções-link">Favoritos</a></li>
+      <li class="opções-item"><a href="#" class="opções-link">Minha estante</a></li>
+    </ul>
+    <div class="container">
+      <a href="#"><img src="assets/Favoritos.svg" alt="Meus favoritos"
+          class="container-imagem container-imagem-transparente"></a>
+      <a href="#" class="container-link">
+        <img src="assets/Compras.svg" alt="Carrinhos de compras" class="container-imagem">
+        <p class="container-texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container-link">
+        <img src="assets/Usuario.svg" alt="Meu perfil" class="container-imagem">
+        <p class="container-texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+  <section class="banner" id="banner">
+    <h2 class="banner-titulo">Tela de cadastro</h2>
+  </section>
+  <main class="principal" id="formulario">
+    <h2 class="principal-titulo">Dados do cadastro</h2>
+    <form class="principal-formulario">
+      <h3 class="principal-subtitulo">Dados pessoais</h3>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="nome">Nome Completo</label>
+        <input name="nome" id="nome" class="campo-escrita" required />
+      </div>
+      <div class="formulario-dupla">
+        <div class="formulario-campo">
+          <label class="campo-etiqueta" for="nascimento">Nascimento</label>
+          <input name="nascimento" id="nascimento" type="date" class="campo-escrita" required />
+        </div>
+        <div class="formulario-campo">
+          <label class="campo-etiqueta" for="telefone">Contato</label>
+          <input name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo-escrita"
+            required />
+        </div>
+      </div>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="email">E-mail</label>
+        <input name="email" id="email" type="email" class="campo-escrita" required />
+      </div>
+      <h3 class="principal-subtitulo">Endereço</h3>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="cep">CEP</label>
+        <input name="cep" id="cep" class="campo-escrita" required />
+        <div id="erro"></div>
+      </div>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="endereco">Endereço</label>
+        <input name="endereco" id="endereco" class="campo-escrita" required />
+      </div>
+      <div class="formulario-dupla">
+        <div class="formulario-campo">
+          <label class="campo-etiqueta" for="numero">Numero</label>
+          <input name="numero" id="numero" class="campo-escrita" required />
+        </div>
+        <div class="formulario-campo">
+          <label class="campo-etiqueta" for="complemento">Complemento</label>
+          <input name="complemento" id="complemento" class="campo-escrita" />
+        </div>
+      </div>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="bairro">Bairro</label>
+        <input name="bairro" id="bairro" class="campo-escrita" required />
+      </div>
+      <div class="formulario-dupla">
+        <div class="formulario-campo">
+          <label class="campo-etiqueta" for="cidade">Cidade</label>
+          <input name="cidade" id="cidade" class="campo-escrita" required />
+        </div>
+        <div class="formulario-campo">
+          <label class="campo-etiqueta" for="estado">UF</label>
+          <select id="estado" name="estado" class="campo-escrita">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="Enviar formulário" class="formulario-botao" id="enviar">
+    </form>
+  </main>
+  <div class="finalizado" id="finalizado" style="display: none;">
+    <section class="banner">
+      <h2 class="banner-titulo">Cadastro finalizado</h2>
+    </section>
+    <main class="principal cadastro">
+      <h2 class="principal-titulo">Sucesso!</h2>
+      <h3 class="principal-subtitulo cadastro-subtitulo">Você finalizou seu cadastro!</h3>
+      <p class="principal-texto">Caso deseje editar informações ou atualizá-las no futuro, é só acessar a página de
+        perfil!</p>
+      <img src="assets/Encerramento-compra---Alura-Books_1.png" alt="Ficha de cadastro completada"
+        class="cadastro-imagem">
+    </main>
+  </div>
+  <hr>
+  <footer class="rodapé">
+    <h2 class="rodapé-titulo">Grupo Alura</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé-titulo">Educação</li>
+      <li class="lista-rodapé-item">
+        <img src="assets/CasaDoCodigo.svg" alt="Logo da casa do código">
+        <a href="https://www.casadocodigo.com.br/" class="lista-rodapé-link">Casa do código</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/Caelum.svg" alt="Logo da caelum">
+        <a href="https://caelum.com.br/" class="lista-rodapé-link">Caelum</a>
+      </li>
+    </ul>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé-titulo">Educação online</li>
+      <li class="lista-rodapé-item">
+        <img src="assets/Alura.svg" alt="Logo da Alura">
+        <a href="https://www.alura.com.br/" class="lista-rodapé-link">Alura</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/AluraEmpresas.svg" alt="Logo da Alura para Empresas">
+        <a href="https://www.alura.com.br/empresas" class="lista-rodapé-link">Alura para Empresas</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/AluraLATAM.svg" alt="Logo da Alura Latam">
+        <a href="https://www.aluracursos.com/" class="lista-rodapé-link">Alura LATAM</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/AluraStart.svg" alt="Logo da Alura START">
+        <a href="https://www.alurastart.com.br/" class="lista-rodapé-link">Alura Start</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/MusicDot.svg" alt="Logo da Music Dot">
+        <a href="https://www.musicdot.com.br/" class="lista-rodapé-link">Music Dot</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/AluraLingua.svg" alt="Logo da Alura Lingua">
+        <a href="https://www.aluralingua.com.br/" class="lista-rodapé-link">Alura Lingua</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/PM3.svg" alt="Logo da PM3">
+        <a href="https://www.cursospm3.com.br/" class="lista-rodapé-link">PM3</a>
+      </li>
+    </ul>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé-titulo">Comunidade</li>
+      <li class="lista-rodapé-item">
+        <img src="assets/HipstersTech.svg" alt="Logo do Hipsters ponto Tech">
+        <a href="https://hipsters.tech/" class="lista-rodapé-link">Hipsters ponto Tech</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/ScubaDev.svg" alt="Logo do Scuba Dev">
+        <a href="https://scuba.dev.br/" class="lista-rodapé-link">Scuba Dev</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/LayersTech.svg" alt="Logo do Layers ponto Tech">
+        <a href="https://layerspontotech.com.br/" class="lista-rodapé-link">Layers ponto Tech</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/LikeABoss.svg" alt="Logo do Like a Boss">
+        <a href="https://likeaboss.com.br/" class="lista-rodapé-link">Like a Boss</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/CarreiraSemFronteira.svg" alt="Logo do Carreira sem fronteiras">
+        <a href="https://www.carreirasemfronteiras.com.br/" class="lista-rodapé-link">Carreira sem
+          fronteiras</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs">
+        <a href="https://hipsters.jobs/" class="lista-rodapé-link">Hipsters ponto jobs</a>
+      </li>
+      <li class="lista-rodapé-item">
+        <img src="assets/GUJ.svg" alt="Logo do GUJ">
+        <a href="https://www.guj.com.br/" class="lista-rodapé-link">GUJ</a>
+      </li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

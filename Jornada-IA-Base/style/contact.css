@@ -55,7 +55,7 @@ main {
   width: 100%;
   height: 620px;
   padding: 0px 150px;
-  background: url(assets/Banner-Blog.png);
+  background: url(../assets/Banner-contato.png);
 }
 
 .journey h1 {
@@ -89,142 +89,108 @@ main {
   border-bottom: 5px solid red;
 }
 
-.tokyo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 100px;
-}
-
-.tokyo-container {
+.popular {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 50px;
+  height: 773px;
+}
+
+.popular-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
   width: 1200px;
+  height: 605px;
 }
 
-.chegada {
-  display: flex;
-  height: 360px;
+.popular-container p {
+  text-align: center;
+  width: 865px;
 }
 
-.text {
-  width: 588px;
-  height: 360px;
-}
-
-.text h2 {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.text p {
-  margin-top: 20px;
-  width: 500px;
-  line-height: 30px;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.chegada img {
-  width: 588px;
-  height: 360px;
-}
-
-.acomodacao {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.acomodacao h2 {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.acomodacao p {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.acomodacao span {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.explorando {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.explorando h2 {
-  margin-top: 20px;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.explorando p {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.talvez {
+.contact-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 100px;
-  width: 1200px;
-  padding-bottom: 150px;
+  gap: 20px;
+  width: 865px;
 }
 
-.talvez-container {
+.contact-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 50px;
+  border-bottom: 3px solid var(--bg-gray-white);
+}
+
+.contact-box input::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--bg-gray);
+}
+
+.contact-box input:focus-visible {
+  border-bottom: 3px solid var(--bg-red);
+}
+
+.box-input {
   display: flex;
-  gap: 25px;
+  gap: 20px;
+  width: 100%;
 }
 
-.talvez-box {
+.box-message {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 384px;
+  gap: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--bg-gray);
 }
 
-.talvez-box h2 {
-  font-size: 32px;
-  font-weight: bold;
+.box-message label {
+  color: var(--bg-gray);
 }
 
-.talvez-box p {
-  width: 340px;
-  line-height: 30px;
-  font-size: 20px;
-  font-weight: 400;
+.box-message textarea {
+  outline: none;
+  resize: none;
+  padding: 10px;
+  height: 100px;
+  border-radius: 5px;
+  color: var(--bg-gray);
+  border: 3px solid var(--bg-gray-white);
 }
 
-.talvez-box img {
-  width: 384px;
-  height: 300px;
+.box-message textarea:focus-visible {
+  border: 3px solid var(--bg-red);
 }
 
-.talvez-box button {
+.contact-box button {
   cursor: pointer;
   border: none;
-  width: 225px;
-  height: 50px;
-  font-size: 16px;
-  font-weight: 700;
+  width: 280px;
+  height: 64px;
   border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
   color: var(--bg-white);
   background-color: var(--bg-red);
 }
 
-.talvez-box button:hover {
-  transform: scale(1.05);
+.contact-box button:active {
+  transform: scale(1.04);
+}
+
+main img {
+  width: 100%;
 }
 
 footer {

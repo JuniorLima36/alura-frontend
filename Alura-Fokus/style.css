@@ -37,17 +37,22 @@ body {
   background-repeat: no-repeat;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Unbounded', cursive;
 }
 
-.app__logo-figure {
+.app-logo-figure {
   display: flex;
   justify-content: center;
   padding: 4rem 0;
 }
 
-.app__section-banner-container {
+.app-section-banner-container {
   width: 99rem;
   margin: 0 auto;
   display: flex;
@@ -57,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
 }
 
-.app__title {
+.app-title {
   line-height: 150%;
   font-size: 5.2rem;
   font-style: normal;
@@ -66,16 +71,16 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 46rem;
 }
 
-.app__title-strong {
+.app-title-strong {
   font-weight: 600;
 }
 
-.app__section-card-container {
+.app-section-card-container {
   display: flex;
   justify-content: center;
 }
 
-.app__card {
+.app-card {
   border-radius: 3.2rem;
   border: 0.2rem solid var(--azul-royal);
   background: var(--fundo-card-timer);
@@ -85,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 90%;
 }
 
-.app__card-list {
+.app-card-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -95,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1.6rem;
 }
 
-.app__card-button {
+.app-card-button {
   font-family: Montserrat;
   font-size: 1.8rem;
   font-style: normal;
@@ -109,13 +114,13 @@ h1, h2, h3, h4, h5, h6 {
   outline: inherit;
 }
 
-.app__card-button.active {
+.app-card-button.active {
   border-radius: 0.8rem;
   background: var(--azul-royal);
   font-weight: 600;
 }
 
-.app__card-timer {
+.app-card-timer {
   color: var(--color-secondary);
   text-align: center;
   font-family: Unbounded;
@@ -127,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.app__card-list-label {
+.app-card-list-label {
   color: var(--color-secondary);
   font-family: Montserrat;
   font-size: 1.8rem;
@@ -135,13 +140,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.app__card-primary-button-wrapper {
+.app-card-primary-button-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.app__card-primary-button {
+.app-card-primary-button {
   padding: 0.8rem;
   width: 12rem;
   color: var(--color-secondary);
@@ -158,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1rem;
 }
 
-.app__footer {
+.app-footer {
   display: flex;
   width: 100%;
   padding: 2.8rem 6rem;
@@ -167,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #010B15;
 }
 
-.app__footer-text {
+.app-footer-text {
   color: rgba(182, 182, 182, 0.8);
   text-align: center;
   font-family: Montserrat;
@@ -177,7 +182,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 150%;
 }
 
-/* toggle */
 .toggle {
   cursor: pointer;
   display: inline-block;
@@ -194,7 +198,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: background 0.25s;
 }
 
-.toggle-switch:before, .toggle-switch:after {
+.toggle-switch:before,
+.toggle-switch:after {
   content: "";
 }
 
@@ -214,11 +219,11 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to bottom, #fff 0%, #fff 100%);
 }
 
-.toggle-checkbox:checked + .toggle-switch {
+.toggle-checkbox:checked+.toggle-switch {
   background: var(--lils);
 }
 
-.toggle-checkbox:checked + .toggle-switch:before {
+.toggle-checkbox:checked+.toggle-switch:before {
   left: 3rem;
 }
 
@@ -227,26 +232,22 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
-/* fim - toggle */
-
-/* Para Tablets */
 @media (max-width: 1024px) and (min-width: 768px) {
-  .app__section-banner-container {
-      width: 48rem;
+  .app-section-banner-container {
+    width: 48rem;
   }
 }
 
-/* Para Celulares */
 @media (max-width: 767px) {
-  .app__section-banner-container {
-      width: 32rem;
+  .app-section-banner-container {
+    width: 32rem;
   }
 
-  .app__title {
-      font-size: 2.6rem;
+  .app-title {
+    font-size: 2.6rem;
   }
 
-  .app__card-timer {
-      font-size: 6rem;
+  .app-card-timer {
+    font-size: 6rem;
   }
 }

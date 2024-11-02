@@ -22,22 +22,21 @@ body {
   text-align: center;
 }
 
-/* CABEÇALHO */
-.cabecalho__container {
+.cabecalho-container {
   background-color: white;
   height: 80px;
   width: 100%;
   padding: 0 25px;
 }
 
-.logo__item {
+.logo-item {
   background-image: url(assets/Logo.png);
   background-repeat: no-repeat;
   padding: 15px 65px;
   cursor: pointer;
 }
 
-.pesquisar__input {
+.pesquisar-input {
   width: 260px;
   height: 32px;
   border: 1px solid rgb(211, 211, 211);
@@ -46,7 +45,7 @@ body {
   border: 1px solid rgb(211, 211, 211);
 }
 
-.pesquisar__label {
+.pesquisar-label {
   background-image: url(assets/search.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,129 +56,127 @@ body {
   cursor: pointer;
 }
 
-.cabecalho__audio {
+.cabecalho-audio {
   background-image: url(assets/mic.png);
   padding: 20px;
   display: none;
 }
 
-.cabecalho__videos {
+.cabecalho-videos {
   background-image: url(assets/video_call.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
 }
 
-.cabecalho__apps {
+.cabecalho-apps {
   background-image: url(assets/apps.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 13px 30px 13px 13px;
 }
 
-.cabecalho__notificacoes {
+.cabecalho-notificacoes {
   background-image: url(assets/notifications.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 13px 30px 13px 13px;
 }
 
-.cabecalho__avatar {
+.cabecalho-avatar {
   background-image: url(assets/Avatar.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 13px 30px 13px 13px;
 }
 
-/* MENU LATERAL */
-.menu__container {
+.menu-container {
   background-color: var(--azul-escuro);
   font-size: 14px;
 }
 
-.menu__itens:hover {
+.menu-itens:hover {
   background-color: var(--azul-medio);
   transition: .5s;
 }
 
-.icone__inicio::before {
+.icone-inicio::before {
   content: url(assets/home.png);
 }
 
-.icone__explorar::before {
+.icone-explorar::before {
   content: url(assets/explore.png);
 }
 
-.icone__shorts::before {
+.icone-shorts::before {
   content: url(assets/shorts.png);
 }
 
-.icone__inscricoes::before {
+.icone-inscricoes::before {
   content: url(assets/subscriptions.png);
 }
 
-.icone__biblioteca::before {
+.icone-biblioteca::before {
   content: url(assets/video_library.png);
 }
 
-.icone__historico::before {
+.icone-historico::before {
   content: url(assets/history.png);
 }
 
-.icone__relogio::before {
+.icone-relogio::before {
   content: url(assets/history_toggle_off.png);
 }
 
-.icone__like::before {
+.icone-like::before {
   content: url(assets/thumb_up_alt.png);
 }
 
-.icone__alura::before {
+.icone-alura::before {
   content: url(assets/Avatar_Alura.png);
 }
 
-.icone__gaveta::before {
+.icone-gaveta::before {
   content: url(assets/Avatar_Gaveta.png);
 }
 
-.icone__ballerini::before {
+.icone-ballerini::before {
   content: url(assets/Avatar_Rafa.png);
 }
 
-.icone__iamarino::before {
+.icone-iamarino::before {
   content: url(assets/Avatar_Atila.png);
 }
 
-.icone__souto::before {
+.icone-souto::before {
   content: url(assets/Avatar_Souto.png);
 }
 
-.icone__nerd::before {
+.icone-nerd::before {
   content: url(assets/Avatar_Jovem_Nerd.png);
 }
 
-.icone__deschamps::before {
+.icone-deschamps::before {
   content: url(assets/Avatar_Deschamps.png);
 }
 
-.icone__mostrar::before {
+.icone-mostrar::before {
   content: url(assets/keyboard_arrow_down.png);
 }
 
-.icone__videos::before {
+.icone-videos::before {
   content: url(assets/videos.png);
 }
 
-.icone__filmes::before {
+.icone-filmes::before {
   content: url(assets/filmes.png);
 }
 
-.icone__jogos::before {
+.icone-jogos::before {
   content: url(assets/jogos.png);
 }
 
-/* SECAO SUPERIOR */
-.superior__secao__container {
+.superior-secao-container {
   height: 63px;
   color: white;
   font-size: 16px;
@@ -191,7 +188,7 @@ body {
   left: 0;
 }
 
-.superior__item {
+.superior-item {
   color: var(--cinza-texto);
   font-size: 16px;
   background-color: white;
@@ -200,20 +197,19 @@ body {
   cursor: pointer;
 }
 
-.superior__item:hover {
+.superior-item:hover {
   color: white;
   background-color: var(--azul-escuro);
   transition: .5s;
 }
 
-/* SEÇÃO VÍDEOS */
-.videos__container {
+.videos-container {
   color: black;
   padding: 153px 20px 10px 20px;
 }
 
-.videos__item:hover {
-  transform: scale(1.3);
+.videos-item:hover {
+  transform: scale(1.04);
   background-color: var(--azul-claro);
   z-index: 2;
   transition: .5s;
@@ -229,8 +225,7 @@ body {
   color: #444444;
 }
 
-/* RODAPÉ */
-.rodape__container {
+.rodape-container {
   width: 100%;
   height: 875px;
   color: var(--cinza-texto);
@@ -239,7 +234,7 @@ body {
   background-color: white;
 }
 
-.rodape__titulo {
+.rodape-titulo {
   color: var(--azul-medio);
   font-weight: bold;
   padding: 10px 0 20px 0;
@@ -250,63 +245,55 @@ body {
     height: 100vh;
   }
 
-  /* ESTILOS DO MENU LATERAL */
-  .menu__container {
+  .menu-container {
     font-size: 16px;
   }
 
-  .menu__lista {
+  .menu-lista {
     padding-top: 15px;
   }
 
-  .menu__lista li {
+  .menu-lista li {
     width: 100%;
   }
 
-  /* ESTILOS DA SECAO SUPERIOR */
-  .superior__secao__container {
+  .superior-secao-container {
     border-top: var(--azul-medio) 1px solid;
     border-bottom: var(--azul-medio) 1px solid;
     width: auto;
     left: 82px;
   }
 
-  /*ESTILOS SEÇÃO VÍDEOS */
-  .videos__container {
+  .videos-container {
     padding-left: 90px;
     padding-right: 17px;
   }
 
-  .videos__item:hover {
-    transform: scale(1.3);
+  .videos-item:hover {
+    transform: scale(1.03);
   }
 
-  /* ESTILOS RODAPÉ */
-  .rodape__container {
+  .rodape-container {
     height: 420px;
     padding-left: 74px;
   }
 }
 
 @media(min-width: 1440px) {
-  /* SEÇÃO SUPERIOR */
-  .superior__secao__container {
+  .superior-secao-container {
     left: 247px;
   }
 
-  /* ESTILOS DO MENU LATERAL */
-  .menu__lista {
+  .menu-lista {
     border-bottom: 1.5px solid var(--azul-medio);
   }
 
-  /* ESTILOS VIDEOS */
-  .videos__container {
+  .videos-container {
     padding-right: 10px;
     padding-left: 248px;
   }
 
-  /* ESTILOS RODAPÉ */
-  .rodape__container {
+  .rodape-container {
     padding-left: 240px;
     height: 225px;
   }

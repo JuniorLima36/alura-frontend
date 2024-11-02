@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>AluraPlay Req</title>
+</head>
+<body>
+  <header>
+    <nav class="cabecalho">
+      <a class="logo" onclick="mostrarVideo()"></a>
+      <div class="cabecalho-pesquisar">
+        <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar-input">
+        <button class="pesquisar-botao" id="botao-pesquisar" onclick="pesquisarVideo()"></button>
+      </div>
+      <div class="cabecalho-icones">
+        <a onclick="enviarVideo()" class="cabecalho-videos"></a>
+      </div>
+    </nav>
+  </header>
+  <div class="videos-container"  id="videos-container" alt="videos alura"></div>
+  <main class="container" id="container" style="display: none;">
+    <form class="container-formulario" onsubmit="cadastrarVideo(event)">
+      <h2 class="formulario-titulo">Envie um vídeo!</h2>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="url">Link embed</label>
+        <input name="url" class="campo-escrita" required
+          placeholder="Por exemplo: https://www.youtube.com/embed/FAY1K2aUg5g" id='url' />
+      </div>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="titulo">Titulo do vídeo</label>
+        <input name="titulo" class="campo-escrita" required placeholder="Neste campo, dê o nome do vídeo" id='titulo' />
+      </div>
+      <div class="formulario-campo">
+        <label class="campo-etiqueta" for="imagem">Imagem de perfil</label>
+        <input name="imagem" class="campo-escrita" required placeholder="Insira a url da imagem" id='imagem' />
+      </div>
+      <input class="formulario-botao" type="submit" value="Cadastrar Vídeo" />
+    </form>
+  </main>
+  <main class="mensagem" id="mensagem" style="display: none;">
+    <div>
+      <h3 class="mensagem-titulo">Vídeo cadastrado com sucesso!</h3>
+      <img src="assets/upload.png" class="mensagem-imagem">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
