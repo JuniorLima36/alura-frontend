@@ -1,51 +1,59 @@
-# 🚀 Projetos do Curso: Front End G7 - ONE
-O Front End G7 - ONE é um curso completo destinado a iniciantes que desejam iniciar uma carreira de sucesso no desenvolvimento web. Neste curso, você aprenderá as principais tecnologias utilizadas no front-end, incluindo HTML, CSS, JavaScript e muito mais. Ao final do curso, você terá a base necessária para criar sites e aplicações web modernas e responsivas.
 
-## 🧊 Objetivo do Projeto
+# 🚀 Front End G7 - ONE | Alura + Oracle Next Education
 
-O projeto final tem como objetivo consolidar os conhecimentos adquiridos ao longo do curso. A proposta inclui:
+## 📋 Descrição do Programa
 
-- Compreender os fundamentos do desenvolvimento web.
-- Aprender a estruturar páginas da web usando HTML.
-- Estilizar páginas da web com CSS.
-- Adicionar interatividade e dinamicidade com JavaScript.
-- Desenvolver habilidades práticas por meio de projetos reais.
-- Preparar-se para o mercado de trabalho como desenvolvedor front-end.
+O programa ONE (Oracle Next Education) é uma iniciativa que visa capacitar pessoas em tecnologia e conectá-las ao mercado de trabalho. Este programa 100% online e gratuito é ideal para quem não teve acesso a uma educação de qualidade e deseja transformar sua realidade social, adquirindo habilidades práticas em desenvolvimento web, com foco em HTML, CSS e JavaScript.
 
-## # Conteúdo Programático
+## 🧊 Conteúdo do Programa
 
-1. **Introdução ao Desenvolvimento Web**
-   - O que é Front-End e Back-End
-   - Como funciona a web
+Nesta formação, aprendi os fundamentos do desenvolvimento front-end e as principais tecnologias que o compõem.
 
-2. **HTML**
-   - Estrutura de um documento HTML
-   - Elementos e tags
-   - Formulários e validação
+## # O front-end domina o mundo
 
-3. **CSS**
-   - Seletores e propriedades
-   - Layouts responsivos (Flexbox e Grid)
-   - Animações e transições
+A Formação Front-end da Alura foi pensada para você começar do zero e se tornar um profissional de ponta.
+- **O que é Front-End?**
+  - A Web é a plataforma de programação mais importante do mundo. Suas tecnologias principais, o HTML, o CSS e o JavaScript, são as linguagens mais usadas. E quem domina essas tecnologias, suas boas práticas e seus recursos mais avançados, hoje está no mercado de Front-End.
 
-4. **JavaScript**
-   - Sintaxe e estruturas de controle
-   - Manipulação do DOM
-   - Eventos e interatividade
+- **O que faz um(a) desenvolvedor(a) Front-End?**
+  - Praticamente todo produto digital precisa de um Front-end Web, por isso é um mercado imenso no Brasil e no mundo. Mas se engana quem acha que aprender um pouco de HTML e CSS são suficientes. O bom profissional de Front-end tem que lidar com desafios enormes. Precisa saber as boas práticas de código, como lidar com múltiplos navegadores e saber escrever sites resilientes. Precisa estar antenado nas novidades do JavaScript moderno e do CSS.
 
-5. **Ferramentas e Práticas**
-   - Controle de versão com Git
-   - Melhores práticas de desenvolvimento
+### 1. Front-End UI
 
-## 🛠️ Tecnologias Utilizadas
+Neste módulo, preparei-me para explorar as técnicas mais avançadas de desenvolvimento front-end, criando layouts sofisticados e responsivos.
 
-- HTML: para a estruturação de conteúdo.
-- CSS: flexbox para estilização e design responsivo.
-- JavaScript: para a lógica de interação e consumo de dados.
-- Consumo de API
-- Github Copilot
-- ChatGPT
+- **Cursos e Artigos Concluídos**:
+  - Curso: IA generativa no Front-end: trabalhando com acessibilidade, semântica e HTML
+  - Curso: CSS: Flexbox e layouts responsivos
+  - Artigo: O que é acessibilidade?
 
-## 🧩 Sobre a Oracle Next Education (ONE)
+### 2. JavaScript - A Linguagem da Web
 
-O programa Oracle Next Education (ONE) é uma iniciativa global que visa transformar vidas por meio da educação em tecnologia. Ao oferecer cursos de alta qualidade e preparar profissionais para o mercado de trabalho, a Oracle contribui para o crescimento pessoal e profissional de pessoas de todas as origens.
+O JavaScript é fundamental para o desenvolvimento de sites modernos e dinâmicos. Aprendi sobre suas boas práticas e como implementar interatividade.
+
+- **Cursos e Artigos Concluídos**:
+  - Curso: JavaScript para Web: Crie páginas dinâmicas
+  - Curso: manipulando elementos no DOM
+  - Artigo: O que é o DOM? | Alura
+
+### 3. Requisições HTTP
+
+Você vai se aprofundar no consumo de dados externos de APIs com fetch API, construir requisições POST, aplicar atributos de validação de formulário com HTML5, customizar mensagens de erro, e muito mais.
+
+- **Cursos e Artigos Concluídos**:
+  - Curso: Consumindo e tratando dados de uma API
+  - Curso: Criando requisições
+  - Curso: Github copilot e ChatGPT
+  - Artigo: HTTP: GET e POST - Conheça as diferenças entre os métodos
+
+### 4. Desafios
+
+Encarei o desafio AluraGeek e Portfólio, onde apliquei meus conhecimentos em HTML, CSS e JavaScript para criar interfaces funcionais e solucionar problemas, utilizando conceitos avançados como manipulação do DOM, promessas e programação assíncrona.
+
+- **Curso Concluído**:
+  - Curso: Praticando Front End: Challenge AluraGeek
+  - Curso: Praticando Front End: Challenge Portfólio
+
+## 🧩 Conclusão
+
+Este programa foi fundamental para me proporcionar uma base sólida no desenvolvimento front-end. Ao final, estou preparado para enfrentar novos desafios no mercado de trabalho, possuindo habilidades práticas em programação web e uma compreensão robusta do desenvolvimento colaborativo.
